@@ -29,7 +29,7 @@ export const links: Array<{
     icon: "fa-solid fa-address-book",
   },
   {
-    title: "Sign Up",
+    title: "Get the app",
     url: "/",
     cName: "nav-links-mobile",
   },

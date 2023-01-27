@@ -39,7 +39,7 @@ const NavBar = (props: Props) => {
             </li>
           );
         })}
-        <button className={styles.buttonStyle}>Get the app</button>
+        {/* <button className={styles.buttonStyle}>Get the app</button> */}
       </ul>
     </nav>
   );

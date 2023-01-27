@@ -7,6 +7,7 @@ import { Hero } from "&styled/hero/hero.component";
 import { UnderHomeComp } from "&styled/underHomeComp/underHomeComp.component";
 import { UndeundeHomeComp } from "&styled/undeundeHomeComp/undeundeHomeComp.component";
 import { Footer } from "&styled/footer/footer.component";
+import homeImage from "&assets/images/home.jpg";
 
 type ReduxProps = ConnectedProps<typeof connector>;
 
@@ -17,11 +18,11 @@ const HomeComponent = (props: ReduxProps) => {
     <>
       <Hero
         cName="hero"
-        heroImg="https://images.unsplash.com/photo-1543362906-acfc16c67564?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG51dHJpdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
-        title="Your Journey Your Story"
-        text="Choose Your Favourite Destination."
+        heroImg={homeImage}
+        title="Eat better not less"
+        text="Stop following deprivation regimes"
         btnClass="show"
-        btnText="Travel Plan"
+        btnText="Take action"
         url=""
       />
       <UnderHomeComp />
