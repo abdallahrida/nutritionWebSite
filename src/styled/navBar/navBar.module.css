@@ -15,6 +15,10 @@
    z-index: 999;
 }
 
+.navBarItemsHide{
+   display: none;
+}
+
 .navbarLogo{
    color:#222;
    font-size: 2rem;

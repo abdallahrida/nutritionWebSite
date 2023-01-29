@@ -60,7 +60,7 @@
 
 .buttonStyle p{
     color: #fff;
-    font-size: 2rem;
+    font-size: 1rem;
     white-space: nowrap;
 }
 
@@ -75,6 +75,10 @@
 
     .buttonStyle p{
         font-size: 1rem;
+    }
+
+    .buttonStyle{
+        width: 100%;
     }
     
 }
