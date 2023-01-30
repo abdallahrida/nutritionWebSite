@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36807a3d37c96edc54303ac6825bf3a9",
+    "revision": "9f66299c0f0740849ad5e5676e0d29da",
     "url": "/nutritionWebSite/index.html"
   },
   {
-    "revision": "0c5d6ed4cb9b06f1eb0b",
-    "url": "/nutritionWebSite/static/css/main.b5a79f6f.chunk.css"
+    "revision": "0c3afbda0dc397b731c3",
+    "url": "/nutritionWebSite/static/css/main.28d79353.chunk.css"
   },
   {
-    "revision": "b4ed4676e3ea1886247d",
-    "url": "/nutritionWebSite/static/js/2.0fe70d91.chunk.js"
+    "revision": "8f70b4e030d3a46d64af",
+    "url": "/nutritionWebSite/static/js/2.3b85d0c8.chunk.js"
   },
   {
     "revision": "418b1618ef813639db7916e4a68a6a2a",
-    "url": "/nutritionWebSite/static/js/2.0fe70d91.chunk.js.LICENSE.txt"
+    "url": "/nutritionWebSite/static/js/2.3b85d0c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c5d6ed4cb9b06f1eb0b",
-    "url": "/nutritionWebSite/static/js/main.25773035.chunk.js"
+    "revision": "0c3afbda0dc397b731c3",
+    "url": "/nutritionWebSite/static/js/main.b870199c.chunk.js"
   },
   {
     "revision": "aa44f01faba6a8d6cd48",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nutritionWebSite/static/media/Montserrat-Regular.f7213526.ttf"
   },
   {
+    "revision": "56768cac0a4007050aa64783407be9f8",
+    "url": "/nutritionWebSite/static/media/Riwaya.56768cac.ttf"
+  },
+  {
     "revision": "ca304f5348de07cd6c45f6bd5018f9cb",
     "url": "/nutritionWebSite/static/media/appLogo.ca304f53.svg"
   },
@@ -68,11 +72,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nutritionWebSite/static/media/hananPhoto.999b158f.jpg"
   },
   {
-    "revision": "c7e20cbe3187d2f8f02995e006f65d34",
-    "url": "/nutritionWebSite/static/media/home.c7e20cbe.jpg"
-  },
-  {
     "revision": "cc3ac5f8f5deccd2cedc87182220947e",
     "url": "/nutritionWebSite/static/media/night.cc3ac5f8.jpg"
+  },
+  {
+    "revision": "dca7c860b069f02b606728f2c485fa4a",
+    "url": "/nutritionWebSite/static/media/unnamed.dca7c860.jpg"
   }
 ]);
