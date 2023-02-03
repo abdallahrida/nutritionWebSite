@@ -1,12 +1,8 @@
-/**
- * i18n home namespace
- * Consists of English and arabic translations
- */
 export const homeNameSpace = {
   en: {
-    // Write english key-mapping here
+    screenTitle: "Life is great, lets make it better together.",
   },
   ar: {
-    // Write Arabic key-mapping here
+    screenTitle: "الحياة رائعة لنجعلها افضل سوياً",
   },
 };

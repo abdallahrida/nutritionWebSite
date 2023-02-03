@@ -10,13 +10,13 @@ import { Section } from "./section.styled";
 const UnderHomeComp = () => {
   return (
     <div className={styles.container}>
-      <h1>Learn how to eat healthy</h1>
+      <h1>Packages</h1>
       <p className={styles.subTitle}>
         We gives you the opportunity to see a lot within a time frame
       </p>
       <Section
-        header="Set personal goals for healthy eating"
-        text="Build healthy eating habits one goal at a time! Use the Start Simple with My app to pick simple daily food goals, see real-time progress, and earn badges along the way."
+        header="Consultation package"
+        text="This service helps you to modify your behaviors and eating habits. Through weekly consultations, we will work together to wean you off emotional eating and build peace with food. Package consist of: 4 weekly consultations 60-minute initial consultation 3 consultations followed by a duration of 20 minutes per consultation Follow up twice a week The package price is $50"
         img1={image1}
         img2={image2}
         containerClassName="first-des"

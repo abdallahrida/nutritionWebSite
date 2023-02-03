@@ -24,6 +24,12 @@
     url(./assets/fonts/Montserrat-Regular.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Riwaya";
+  src: local("Riwaya"),
+    url(./assets/fonts/Riwaya.ttf) format("truetype");
+}
+
 *{
   margin: 0px;
   padding: 0px;

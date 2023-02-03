@@ -4,13 +4,19 @@ import styles from "./navBar.module.css";
 import { ReactComponent as AppLogo } from "&assets/images/appLogo.svg";
 import { links } from "./navBarLinks";
 import { Link } from "react-router-dom";
-
-interface Props {}
+import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
+  const { i18n } = useTranslation();
   const [clicked, setClicked] = useState(false);
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+
+  const switchLanguage = () => {
+    const lang = i18n.language === "ar" ? "en" : "ar";
+    i18n.changeLanguage(lang);
+    window.location.reload();
+  };
 
   useEffect(() => {
     const controlNavbar = () => {
@@ -52,11 +58,24 @@ const NavBar = () => {
       >
         {links.map((item, index) => {
           return (
-            <li key={index} onClick={() => setClicked((prev) => !prev)}>
-              <Link to={item.url} className={styles[item.cName]}>
-                <i className={item.icon} />
-                {item.title}
-              </Link>
+            <li
+              key={index}
+              onClick={() => {
+                !item.url && switchLanguage();
+                setClicked((prev) => !prev);
+              }}
+            >
+              {item.url ? (
+                <Link to={item.url} className={styles[item.cName]}>
+                  <i className={item.icon} />
+                  {item.title}
+                </Link>
+              ) : (
+                <span className={styles[item.cName]}>
+                  <i className={item.icon} />
+                  {item.title}
+                </span>
+              )}
             </li>
           );
         })}

@@ -13,16 +13,15 @@ i18n
       en: en,
       ar: ar,
     },
-    fallbackLng: "en",
+    lng: localStorage.getItem("i18nextLng") || "en",
+    load: "languageOnly",
+    supportedLngs: ["en", "ar"],
     debug: false,
-
-    keySeparator: false, // we use content as keys
-
+    keySeparator: false,
     interpolation: {
-      escapeValue: false, // not needed for react!!
+      escapeValue: false,
       formatSeparator: ",",
     },
-
     react: {
       wait: true,
     },

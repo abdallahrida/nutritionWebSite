@@ -4,7 +4,7 @@
   "description": "Reactjs Redux Typescript Template",
   "author": "",
   "main": "public/electron.js",
-  "homepage": "https://abdallahrida.github.io/nutritionWebSite",
+  "homepage": "https://abdallahrida.github.io/nutritionWebSite/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.2.5",
